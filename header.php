@@ -16,16 +16,16 @@
 	<!--[if lt IE 9]>
     <script type="text/javascript" src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
     <![endif]-->
+
     <link rel="shortcut icon" href="<?php $this->options->themeUrl('/img/favicon.ico'); ?>">
+
+    <!-- google cerfication -->
+    <meta name="google-site-verification" content="ByVfaP_E3b9ZYRUGhNAUFSQKL8mJQwUehpQwoxJ5n-c" />
+
     <link rel="stylesheet" href="http://cdn.staticfile.org/normalize/3.0.1/normalize.min.css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.min.css'); ?>">
     <script type="text/javascript" src="http://cdn.staticfile.org/jquery/1.11.0/jquery.min.js"></script>
     <?php $this->header("generator=&template=&"); ?>
-    
-    <!-- baidu cerfication -->
-    <script type="text/javascript" name="baidu-tc-cerfication" data-appid="5386312" src="http://apps.bdimg.com/cloudaapi/lightapp.js"></script>
-    <!-- google cerfication -->
-    <meta name="google-site-verification" content="ByVfaP_E3b9ZYRUGhNAUFSQKL8mJQwUehpQwoxJ5n-c" />
 </head>
 <body>
 <div class="move-block">

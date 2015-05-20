@@ -13,7 +13,7 @@
         <ul class="widget-list widget-list2">
             <?php Typecho_Widget::widget('Widget_Metas_Category_List')->to($category); ?>
             <?php while($category->next()): ?>
-            <li><h3><a href="<?php $category->permalink ?>"><?php echo str_repeat("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", $category->levels); $category->name(); ?></a></h3></li>
+            <li><h3><a href="<?php $category->permalink(); ?>"><?php echo str_repeat("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", $category->levels); $category->name(); ?></a></h3></li>
             <?php endwhile; ?>
         </ul>
 
