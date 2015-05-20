@@ -20,7 +20,8 @@
 				</h2>
             </heaer>
                 <div class="post-content">
-        		<?php $this->content('- 阅读剩余部分 -'); ?>
+        		
+                <?php $this->excerpt(240, '...<p class="more"><a href="'.$this->permalink.'">- 阅读剩余部分 -</a></p>');; ?>
                 </div>
     		</article>
 		<?php endwhile; ?>

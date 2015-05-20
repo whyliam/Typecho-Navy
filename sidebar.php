@@ -11,22 +11,25 @@
     <section class="widget">
 		<h3 class="widget-title"><?php _e('分类'); ?></h3>
         <ul class="widget-list widget-list2">
-            <?php $this->widget('Widget_Metas_Category_List')
-            ->parse('<li><h3><a href="{permalink}">{name}</a></h3></li>'); ?>
+            <?php Typecho_Widget::widget('Widget_Metas_Category_List')->to($category); ?>
+            <?php while($category->next()): ?>
+            <li><h3><a href="<?php $category->permalink ?>"><?php echo str_repeat("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", $category->levels); $category->name(); ?></a></h3></li>
+            <?php endwhile; ?>
         </ul>
+
 	</section>
     <?php endif; ?>
-    
+
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowRecentPosts', $this->options->sidebarBlock)): ?>
     <section class="widget">
-        <div class="widget-title"><?php _e('最新文章'); ?></div>
+		<div class="widget-title"><?php _e('最新文章'); ?></div>
         <ul class="widget-list widget-list2">
             <?php $this->widget('Widget_Contents_Post_Recent')
             ->parse('<li><h3><a href="{permalink}">{title}</a></h3></li>'); ?>
         </ul>
     </section>
     <?php endif; ?>
-
+    
     <?php if (!empty($this->options->sidebarBlock) && in_array('ShowArchive', $this->options->sidebarBlock)): ?>
     <section class="widget">
 		<div class="widget-title"><?php _e('归档'); ?></div>
@@ -53,5 +56,14 @@
         </ul>
 	</section>
     <?php endif; ?>
+    
+    <section class="widget">
+		<div class="widget-title"><?php _e('友情链接'); ?></div>
+    		<ul class="widget-list widget-list2 frind-links">
+                <li><a href="http://www.naaln.com">Why·Liam·Home</a></li>
+                <li><a href="http://photo.naaln.com">Why·Liam·Photo</a></li>
+            </ul>
+    </section>
+    
     </div>
 </div>

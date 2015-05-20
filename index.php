@@ -1,9 +1,11 @@
 <?php
 /**
+ * 简单的响应式模板<br>技术支持：<a href="http://xiu.160.me">ClayMore</a><br/>原作者:<a href="http://pagecho.com">cho</a>
+ * 
  * @package Navy
  * @author cho
  * @version 1.0
- * @link http://naaln.com
+ * @link http://pagecho.com
  */
  $this->need('header.php');
  ?>
