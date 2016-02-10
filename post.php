@@ -21,6 +21,7 @@
 				</section>
             </footer>
             <?php endif; ?>
+            <?php $this->need('dashang.php'); ?>
 		</article>
 		<?php if($this->allow('comment')): ?>
 		<?php $this->need('comments.php'); ?>
