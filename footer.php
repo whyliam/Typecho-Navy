@@ -36,6 +36,5 @@ $(".link-back2top a").click(function() {
     
 <!-- baidu cerfication -->
 <script type="text/javascript" name="baidu-tc-cerfication" data-appid="5386312" src="http://apps.bdimg.com/cloudaapi/lightapp.js"></script>
-
 </body>
 </html>

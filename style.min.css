@@ -21,15 +21,17 @@ textarea{resize:vertical}.clear{clear:both}.clearfix,.col-group{zoom:1}.clearfix
 #search button{position:absolute;top:0;right:25px;border:0;padding:6px 15px;color:#444;font-size:13px;line-height:1.7;background-color:#303538;color:#f8f8f8;width:60px}
 .col-8{width:750px}.col-12{width:100%}.container{width:1150px;padding:0 60px;margin:0 auto}#secondary{height:100%;width:300px;top:0;right:-330px;position:fixed;z-index:100;box-shadow:-3px 0 8px rgba(0,0,0,0.1);font-size:13px;background-color:#303538;color:#f8f8f8}
 .sidebar{padding:60px 0}#main{padding-top:20px;margin:0 auto}.post{padding:36px 0 0}.post-title{margin:0;color:#555;text-align:left;font-size:28px;font-weight:600}
-.post-title a{color:#666}.post-title a:hover{color:#444}.post-meta{padding:0;margin:0 0 10px;color:#999;text-align:left;display:block}.post-content{font-size:17px;line-height:1.92;color:#444;padding-top:32px}
-.page-content{padding-top:40px}.post-content h3,.post-content h2{margin:1.4em 0 1.1em}.post-content pre code,.comment-content pre code{padding:1.5em 2em}
-.post-content p code,.post-content h1 code,.post-content h2 code,.post-content h3 code,.post-content h4 code,.post-content h5 code,.post-content h6 code,.comment-content p code{display:inline;margin:0 5px;padding:3px 5px;color:#f66}
+.post-title a{color:#666}.post-title a:hover{color:#444}#index .post .post-title,#archive .post .post-title{margin-bottom:10px;padding-bottom:5px;border-bottom:1px solid rgba(0,0,0,0.15);color:#333;font-size:20px;transition:all .5s}
+#index .post .post-title:hover,#archive .post .post-title:hover{padding-left:1.5em}.post-meta{padding:0;margin:0 0 10px;color:#999;text-align:left;display:block}
+.post-content{font-size:17px;line-height:1.92;color:#444;padding-top:32px}.page-content{padding-top:40px}.post-content h3,.post-content h2{margin:1.4em 0 1.1em}
+.post-content pre code,.comment-content pre code{padding:1.5em 2em}.post-content p code,.post-content h1 code,.post-content h2 code,.post-content h3 code,.post-content h4 code,.post-content h5 code,.post-content h6 code,.comment-content p code{display:inline;margin:0 5px;padding:3px 5px;color:#f66}
 .post-content p{margin:0 0 1.234em}.post-content img{padding:1em 0;max-width:90%;margin-left:5%}.post-content ul{overflow:auto;padding:.5em 2.4em;border-radius:3px;margin:1.8em 0}
 .post-content ul li{text-indent:.5em}.post-footer{position:relative;margin:100px 0 0 0;padding:40px 0 0 0;border-top:#ddd 1px solid;text-align:center}
 .post-footer h4{font-size:1.8rem;margin:0;padding-top:5px;font-family:"Times New Roman",Georgia,Times,sans-serif}.post-footer p{margin:10px 0 0}
 .author-ava{height:80px;width:80px;overflow:hidden;border-radius:100%;border:1px solid #ddd;padding:10px 5px 0;background-color:#fff;margin:-90px auto 20px}
 .author-ava img{width:100%!important;height:100%!important}.archive-title{padding-top:13px;color:#999;font-size:22px}.more{padding:10px 0 0;text-align:center}
-.more a{border:0}.protected .text{width:50%}.page-navigator{text-align:center;list-style:none;margin-top:45px;padding:30px 0 0;font-size:16px;border-top:1px solid #ddd}
+.more a{text-align:center;display:block;margin:0 auto;padding:3px 10px;width:140px;border:1px solid #444;border-radius:20px;color:#444;font-size:13px;opacity:.6;transition:all .5s}
+.more a:hover{width:190px;border:1px solid #4094c7;color:#4094c7}.protected .text{width:50%}.page-navigator{text-align:center;list-style:none;margin-top:45px;padding:30px 0 0;font-size:16px;border-top:1px solid #ddd}
 .page-navigator li{display:inline-block;margin:0 5px 5px 0}.page-navigator a{display:inline-block;padding:0 10px;height:25px;line-height:25px;padding:5px 9px;border:1px solid #DDD}
 .page-navigator a:hover{background:#f8f8f8;border-bottom-color:#d26911}.page-navigator .current a{background:#f8f8f8;border-bottom-color:#d26911}.related-article{border:1px solid #ddd;border-left:none;border-right:0;margin-bottom:5em}
 .related-article div{width:399px;float:left;padding:20px 0}.related-article div a{padding:0 4em;font-size:17px}.nav-prev{text-align:left;border-right:1px solid #ddd}

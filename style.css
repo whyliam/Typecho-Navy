@@ -394,6 +394,21 @@ textarea {
     color: #444;
 }
 
+#index .post .post-title,
+#archive .post .post-title {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    color: #333;
+    font-size: 20px;
+    transition: all .5s
+}
+
+#index .post .post-title:hover,
+#archive .post .post-title:hover {
+    padding-left: 1.5em
+}
+
 .post-meta {
     padding: 0;
     margin: 0 0 10px;
@@ -508,7 +523,23 @@ textarea {
 }
 
 .more a {
-    border: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 3px 10px;
+    width: 140px;
+    border: 1px solid #444;
+    border-radius: 20px;
+    color: #444;
+    font-size: 13px;
+    opacity: 0.6;
+    transition: all .5s;
+}
+
+.more a:hover {
+    width: 190px;
+    border: 1px solid #4094c7;
+    color: #4094c7
 }
 
 .protected .text {
